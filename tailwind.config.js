@@ -9,4 +9,4 @@ fontFamily :{
   },
   plugins: [],
 }
-}
+};
