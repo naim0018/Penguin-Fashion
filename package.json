@@ -78,7 +78,7 @@
     "yaml": "^2.3.1"
   },
   "scripts": {
-    "build": "tailwindcss -i input.css -o ./dist/output.css -w"
+    "build": "node api.js && tailwindcss -i input.css -o ./dist/output.css -w"
   },
   "keywords": [],
   "author": "",
